@@ -1,4 +1,4 @@
-### 0. Trie (cow, thread safe, put get del), code foomat(make lint); memory leak
+### 0. 线程安全的前缀树： Trie (cow, thread safe, put get del), code foomat(make lint); memory leak
 #### src/primer: 实现线程安全的支持 get put del 的前缀树， 基于 std <mutex> <shared_mutex>
 
 
