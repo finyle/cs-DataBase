@@ -46,7 +46,7 @@ install() {
       case $version in
         18.04) install_linux ;;
         20.04) install_linux ;;
-        22.04) install_linux ;;
+        22.10) install_linux ;;
         *) give_up ;;
       esac
       ;;

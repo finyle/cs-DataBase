@@ -32,7 +32,7 @@ auto main(int argc, char **argv) -> int {
   auto default_prompt = "bustub> ";
   auto emoji_prompt = "\U0001f6c1> ";  // the bathtub emoji
   bool use_emoji_prompt = false;
-  bool disable_tty = false;
+  bool disable_tty = true;
 
   for (int i = 1; i < argc; i++) {
     if (strcmp(argv[i], "--emoji-prompt") == 0) {
